@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc50f56-bca1-4f12-84e5-5a7e5cbd5978" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Check9DigitsTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Check9DigitsTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="back-end-iskra" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575739815540</updated>
       <workItem from="1575739825600" duration="24168000" />
-      <workItem from="1575770992578" duration="3635000" />
+      <workItem from="1575770992578" duration="4037000" />
     </task>
     <servers />
   </component>
@@ -195,6 +197,10 @@
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state x="2138" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805491022" />
+    <state x="1982" y="85" key="CommitChangelistDialog2" timestamp="1575805958388">
+      <screen x="1440" y="-57" width="1920" height="1080" />
+    </state>
+    <state x="1982" y="85" key="CommitChangelistDialog2/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805958388" />
     <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1575805693056">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
