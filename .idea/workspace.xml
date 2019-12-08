@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc50f56-bca1-4f12-84e5-5a7e5cbd5978" name="Default Changelist" comment="" />
+    <list default="true" id="fdc50f56-bca1-4f12-84e5-5a7e5cbd5978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Add0s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Add0sTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,13 +38,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Client">
+  <component name="RunManager" selected="Python tests.Unittests in Add0sTest.py">
+    <configuration name="Add0s" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="back-end-iskra" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Add0s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="back-end-iskra" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,43 +134,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in Check9DigitsTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in Add0sTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="back-end-iskra" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Check9DigitsTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="back-end-iskra" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Add0sTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in Add0sTest.py" />
+        <item itemvalue="Python.Add0s" />
         <item itemvalue="Python.Client" />
         <item itemvalue="Python.Server" />
         <item itemvalue="Python.LogFile" />
-        <item itemvalue="Python tests.Unittests in Check9DigitsTest.py" />
-        <item itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +183,7 @@
       <updated>1575739815540</updated>
       <workItem from="1575739825600" duration="24168000" />
       <workItem from="1575770992578" duration="4117000" />
+      <workItem from="1575806264938" duration="8718000" />
     </task>
     <servers />
   </component>
@@ -179,7 +195,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -190,6 +208,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575742685465" />
+    <state x="2213" y="206" key="#com.intellij.ide.util.MemberChooser" timestamp="1575816815508">
+      <screen x="1440" y="-57" width="1920" height="1080" />
+    </state>
+    <state x="2213" y="206" key="#com.intellij.ide.util.MemberChooser/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575816815508" />
     <state x="2138" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575805491022">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
@@ -198,57 +220,80 @@
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state x="1982" y="85" key="CommitChangelistDialog2/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805958388" />
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1575806243765">
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1575819649546">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873844" />
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575806243765" />
-    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1575806243763">
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819649546" />
+    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1575819649544">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873841" />
-    <state width="1878" height="297" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575806243763" />
-    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1575806243762">
+    <state width="1878" height="297" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819649544" />
+    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1575819649543">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873839" />
-    <state width="1878" height="297" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575806243762" />
-    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1575806243764">
+    <state width="1878" height="297" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819649543" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1575819649545">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873843" />
-    <state width="1878" height="297" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575806243764" />
-    <state width="1878" height="303" key="GridCell.Tab.1.bottom" timestamp="1575770972298">
+    <state width="1878" height="297" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819649545" />
+    <state width="1878" height="303" key="GridCell.Tab.1.bottom" timestamp="1575819586336">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874484" />
-    <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575770972298" />
-    <state width="1878" height="303" key="GridCell.Tab.1.center" timestamp="1575770972296">
+    <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819586336" />
+    <state width="1878" height="303" key="GridCell.Tab.1.center" timestamp="1575819586334">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874482" />
-    <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575770972296" />
-    <state width="1878" height="303" key="GridCell.Tab.1.left" timestamp="1575770972295">
+    <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819586334" />
+    <state width="1878" height="303" key="GridCell.Tab.1.left" timestamp="1575819586333">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874481" />
-    <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575770972295" />
-    <state width="1878" height="303" key="GridCell.Tab.1.right" timestamp="1575770972297">
+    <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819586333" />
+    <state width="1878" height="303" key="GridCell.Tab.1.right" timestamp="1575819586335">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874482" />
-    <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575770972297" />
+    <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575819586335" />
+    <state x="1909" y="122" key="SettingsEditor" timestamp="1575816228781">
+      <screen x="1440" y="-57" width="1920" height="1080" />
+    </state>
+    <state x="1909" y="122" key="SettingsEditor/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575816228781" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1575758043603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="720" height="450" key="XDebugger.FullValuePopup/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758043603" />
-    <state x="1972" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1575770994137">
+    <state x="1972" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1575806267293">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575739875020" />
-    <state x="1972" y="281" key="com.intellij.ide.util.TipDialog/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575770994137" />
+    <state x="1972" y="281" key="com.intellij.ide.util.TipDialog/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575806267293" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Client.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Server.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Add0s.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="numbers" language="Python" />
@@ -256,12 +301,14 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/back_end_iskra$Add0s.coverage" NAME="Add0s Coverage Results" MODIFIED="1575819523270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_proves_py.coverage" NAME="Unittests in proves.py Coverage Results" MODIFIED="1575742535554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1575751538545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_Add0sTest_py.coverage" NAME="Unittests in Add0sTest.py Coverage Results" MODIFIED="1575819649528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Check9Digits.coverage" NAME="Check9Digits Coverage Results" MODIFIED="1575751498783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/back_end_iskra$Server.coverage" NAME="Server Coverage Results" MODIFIED="1575803206470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/back_end_iskra$Server.coverage" NAME="Server Coverage Results" MODIFIED="1575819174550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_for_Check9DigitsTest_MyTestCase_test_something.coverage" NAME="Unittests for Check9DigitsTest.MyTestCase.test_something Coverage Results" MODIFIED="1575751421552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_Check9DigitsTest_py.coverage" NAME="Unittests in Check9DigitsTest.py Coverage Results" MODIFIED="1575751547119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/back_end_iskra$Client.coverage" NAME="Client Coverage Results" MODIFIED="1575803222920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/back_end_iskra$Client.coverage" NAME="Client Coverage Results" MODIFIED="1575819177784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
