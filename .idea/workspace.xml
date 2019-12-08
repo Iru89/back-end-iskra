@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fdc50f56-bca1-4f12-84e5-5a7e5cbd5978" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Check9DigitsTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Check9DigitsTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.Client">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -109,7 +116,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Check9DigitsTest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Check9DigitsTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -124,7 +131,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -161,38 +168,53 @@
       <option name="presentableId" value="Default" />
       <updated>1575739815540</updated>
       <workItem from="1575739825600" duration="24168000" />
-      <workItem from="1575770992578" duration="2955000" />
+      <workItem from="1575770992578" duration="3635000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575742685465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575742685465" />
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1575804064883">
+    <state x="2138" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575805491022">
+      <screen x="1440" y="-57" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805491022" />
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1575805693056">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873844" />
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575804064883" />
-    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1575804064881">
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805693056" />
+    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1575805693054">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873841" />
-    <state width="1878" height="297" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575804064881" />
-    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1575804064880">
+    <state width="1878" height="297" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805693054" />
+    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1575805693052">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873839" />
-    <state width="1878" height="297" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575804064880" />
-    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1575804064883">
+    <state width="1878" height="297" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805693052" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1575805693055">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873843" />
-    <state width="1878" height="297" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575804064883" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805693055" />
     <state width="1878" height="303" key="GridCell.Tab.1.bottom" timestamp="1575770972298">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
