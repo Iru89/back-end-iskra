@@ -7,7 +7,7 @@ if __name__ == '__main__':
     # El client a de tenir les mateixes especificacions que el server
     host = socket.gethostname()
     port = 4000
-    BUFFER_SIZE = 1024
+    BUFFER_SIZE = 20
     MESSAGE = input('Introdueix un numero de 9 xifres: ')
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as socket_tcp:
