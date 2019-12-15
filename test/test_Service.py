@@ -1,4 +1,5 @@
 import socket
+import unittest
 from unittest import TestCase
 
 from Service import Service
@@ -27,3 +28,6 @@ class TestService(TestCase):
         actual = service.nine_digits_format(num)
         server_socket.close()
         self.assertEqual(expected, actual)
+
+if __name__ == '__main__':
+    unittest.main()
