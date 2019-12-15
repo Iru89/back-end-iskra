@@ -40,8 +40,7 @@ def nine_digits_format(data_str):
 
 
 
-def listen_to_clinet(conn, ):
-    conn.set
+def listen_to_client(conn, ):
     data_bytes = conn.recv(BUFFER_SIZE)
     conn.close()
     data_str = nine_digits_format(data_bytes.decode('utf-8'))
@@ -67,21 +66,24 @@ BUFFER_SIZE = 20  # Utilitzem un numero petit per tenir una resposta rapida, 9 d
 server_on = True
 lock = threading.Lock()
 list_numbers = []
-threads = []
 
 print_thread = threading.Thread(target=every_10_seg, daemon=True)
 print_thread.start()
 socket_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+socket_tcp.settimeout(1)
 socket_tcp.bind((hostname, port))
 
 while True:
-    socket_tcp.listen(5)
-    conn, addr = socket_tcp.accept()
+    try:
+        socket_tcp.listen(5)
+        conn, addr = socket_tcp.accept()
 
-    new_thread = threading.Thread(target=listen_to_clinet, args=(conn,), daemon=True)
-    new_thread.start()
-    threads.append(new_thread)
+        new_thread = threading.Thread(target=listen_to_client, args=(conn,), daemon=True)
+        new_thread.start()
 
-    if not server_on:
-        socket_tcp.close()
-        break
+        if not server_on:
+            socket_tcp.close()
+            break
+
+    except socket.error as socketerror:
+        pass
