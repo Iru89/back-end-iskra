@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fdc50f56-bca1-4f12-84e5-5a7e5cbd5978" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iskra_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/iskra_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_Service.TestService">
+  <component name="RunManager" selected="Python.iskra_server">
     <configuration name="iskra_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="back-end-iskra" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iskra_server" />
         <item itemvalue="Python tests.Unittests for test_Service.TestService" />
         <item itemvalue="Python tests.Unittests for test_Service.TestService.test_check_9_digits" />
         <item itemvalue="Python tests.Unittests for test_Service.TestService.test_nine_digits_format" />
         <item itemvalue="Python tests.Unittests in test_Service.py" />
-        <item itemvalue="Python.iskra_server" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,7 @@
       <workItem from="1575770992578" duration="4117000" />
       <workItem from="1575806264938" duration="20668000" />
       <workItem from="1576164851268" duration="6059000" />
-      <workItem from="1576257032234" duration="16999000" />
+      <workItem from="1576257032234" duration="22822000" />
     </task>
     <servers />
   </component>
@@ -196,61 +198,69 @@
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state x="2138" y="237" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576437887892" />
+    <state x="2289" y="193" width="791" height="612" key="#xdebugger.evaluate" timestamp="1576603764914">
+      <screen x="1440" y="-57" width="1920" height="1080" />
+    </state>
+    <state x="2289" y="193" width="791" height="612" key="#xdebugger.evaluate/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603764914" />
     <state x="1982" y="85" key="CommitChangelistDialog2" timestamp="1575805958388">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state x="1982" y="85" key="CommitChangelistDialog2/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1575805958388" />
-    <state width="1878" height="463" key="GridCell.Tab.0.bottom" timestamp="1576441139086">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1576603902920">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="321" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576102131312" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873844" />
-    <state width="1878" height="463" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576441139086" />
-    <state width="1878" height="463" key="GridCell.Tab.0.center" timestamp="1576441139084">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902920" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1576603902918">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="321" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576102131311" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873841" />
-    <state width="1878" height="463" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576441139084" />
-    <state width="1878" height="463" key="GridCell.Tab.0.left" timestamp="1576441139079">
+    <state width="1878" height="303" key="GridCell.Tab.0.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902918" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1576603902917">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="321" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576102131310" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873839" />
-    <state width="1878" height="463" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576441139079" />
-    <state width="1878" height="463" key="GridCell.Tab.0.right" timestamp="1576441139085">
+    <state width="1878" height="303" key="GridCell.Tab.0.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902917" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1576603902919">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="321" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576102131311" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758873843" />
-    <state width="1878" height="463" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576441139085" />
-    <state width="1878" height="303" key="GridCell.Tab.1.bottom" timestamp="1576435266508">
+    <state width="1878" height="303" key="GridCell.Tab.0.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902919" />
+    <state width="1878" height="303" key="GridCell.Tab.1.bottom" timestamp="1576603902041">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874484" />
-    <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576435266508" />
+    <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902041" />
     <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.23.1440.801@1440.-57.1920.1080" timestamp="1576427921577" />
+    <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.1080/0.23.1440.804@1440.-57.1920.1080" timestamp="1576603692368" />
     <state width="1878" height="303" key="GridCell.Tab.1.bottom/1440.-57.1920.991/0.23.1440.877@1440.-57.1920.991" timestamp="1576435210546" />
-    <state width="1878" height="303" key="GridCell.Tab.1.center" timestamp="1576435266506">
+    <state width="1878" height="303" key="GridCell.Tab.1.center" timestamp="1576603902040">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874482" />
-    <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576435266506" />
+    <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902040" />
     <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.23.1440.801@1440.-57.1920.1080" timestamp="1576427921571" />
+    <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.1080/0.23.1440.804@1440.-57.1920.1080" timestamp="1576603692367" />
     <state width="1878" height="303" key="GridCell.Tab.1.center/1440.-57.1920.991/0.23.1440.877@1440.-57.1920.991" timestamp="1576435210543" />
-    <state width="1878" height="303" key="GridCell.Tab.1.left" timestamp="1576435266505">
+    <state width="1878" height="303" key="GridCell.Tab.1.left" timestamp="1576603902038">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874481" />
-    <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576435266505" />
+    <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902038" />
     <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.23.1440.801@1440.-57.1920.1080" timestamp="1576427921569" />
+    <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.1080/0.23.1440.804@1440.-57.1920.1080" timestamp="1576603692366" />
     <state width="1878" height="303" key="GridCell.Tab.1.left/1440.-57.1920.991/0.23.1440.877@1440.-57.1920.991" timestamp="1576435210541" />
-    <state width="1878" height="303" key="GridCell.Tab.1.right" timestamp="1576435266507">
+    <state width="1878" height="303" key="GridCell.Tab.1.right" timestamp="1576603902040">
       <screen x="1440" y="-57" width="1920" height="1080" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1575758874482" />
-    <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576435266507" />
+    <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.0.1440.900@1440.-57.1920.1080" timestamp="1576603902040" />
     <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.23.1440.801@1440.-57.1920.1080" timestamp="1576427921572" />
+    <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.1080/0.23.1440.804@1440.-57.1920.1080" timestamp="1576603692367" />
     <state width="1878" height="303" key="GridCell.Tab.1.right/1440.-57.1920.991/0.23.1440.877@1440.-57.1920.991" timestamp="1576435210545" />
     <state x="1909" y="122" key="SettingsEditor" timestamp="1575816228781">
       <screen x="1440" y="-57" width="1920" height="1080" />
@@ -275,24 +285,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Service.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controller.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Service.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controller.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/Repository.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -301,10 +296,10 @@
     <SUITE FILE_PATH="coverage/back_end_iskra$Controller.coverage" NAME="Controller Coverage Results" MODIFIED="1576434982666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1575751538545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Check9Digits.coverage" NAME="Check9Digits Coverage Results" MODIFIED="1575751498783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/back_end_iskra$iskra_server.coverage" NAME="iskra_server Coverage Results" MODIFIED="1576435271918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/back_end_iskra$iskra_server.coverage" NAME="iskra_server Coverage Results" MODIFIED="1576603816094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_Check9DigitsTest_py.coverage" NAME="Unittests in Check9DigitsTest.py Coverage Results" MODIFIED="1575751547119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_for_test_Service_TestService_test_check_9_digits.coverage" NAME="Unittests for test_Service.TestService.test_check_9_digits Coverage Results" MODIFIED="1576441126650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_for_test_Service_TestService.coverage" NAME="Unittests for test_Service.TestService Coverage Results" MODIFIED="1576441128850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_for_test_Service_TestService.coverage" NAME="Unittests for test_Service.TestService Coverage Results" MODIFIED="1576598291707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Add0s.coverage" NAME="Add0s Coverage Results" MODIFIED="1575819523270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_proves_py.coverage" NAME="Unittests in proves.py Coverage Results" MODIFIED="1575742535554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/back_end_iskra$Unittests_in_Add0sTest_py.coverage" NAME="Unittests in Add0sTest.py Coverage Results" MODIFIED="1575819725046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
